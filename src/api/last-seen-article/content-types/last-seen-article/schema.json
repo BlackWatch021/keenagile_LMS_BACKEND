@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "last_seen_articles",
+  "info": {
+    "singularName": "last-seen-article",
+    "pluralName": "last-seen-articles",
+    "displayName": "Last Seen Article"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userid": {
+      "type": "string"
+    },
+    "courseid": {
+      "type": "string"
+    },
+    "articleid": {
+      "type": "string"
+    }
+  }
+}

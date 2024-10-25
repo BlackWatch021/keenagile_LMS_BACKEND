@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featuredcourses",
+  "info": {
+    "singularName": "featuredcourse",
+    "pluralName": "featuredcourses",
+    "displayName": "Featuredcourse"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "features": {
+      "type": "uid",
+      "required": true
+    },
+    "courses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::course.course",
+      "mappedBy": "featuredCourse"
+    }
+  }
+}

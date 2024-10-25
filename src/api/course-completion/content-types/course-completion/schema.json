@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "course_completions",
+  "info": {
+    "singularName": "course-completion",
+    "pluralName": "course-completions",
+    "displayName": "CourseCompletion",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userid": {
+      "type": "string",
+      "required": true
+    },
+    "courses": {
+      "type": "json"
+    },
+    "completedcourses": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_section_sections",
+  "info": {
+    "displayName": "Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "sequence": {
+      "type": "integer",
+      "required": true
+    },
+    "article": {
+      "type": "component",
+      "repeatable": true,
+      "component": "article.articles",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_article_articles",
+  "info": {
+    "displayName": "Articles",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "TimeToComplete": {
+      "type": "integer",
+      "required": true
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBalloon"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "sequence": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
